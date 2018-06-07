@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Starting Out with TLA+"
-categories: tla+
+tags: tla+
 ---
 I recently attended Never Graduate Week at [Recurse Center](https://www.recurse.com/). For my project, I chose to tackle learning TLA+. Prior to the week at RC, I worked through [Learn TLA](https://learntla.com) and the [TLA+ video course](http://lamport.azurewebsites.net/video/videos.html). With some familiarity of the mechanics, my goal was to create my own specs. I shared my experience of going through this exercise with a few people and some similar questions/concerns came up. Here are my thoughts on those concerns.
 

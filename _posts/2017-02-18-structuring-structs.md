@@ -2,7 +2,7 @@
 layout: post
 title:  "Structuring Structs"
 date:   2017-02-18 20:46:00 -0800
-categories: swift
+tags: swift
 ---
 What’s the difference between a class and struct? The goto answer I often hear is about the memory model of reference vs value types. While technically correct, this misses the bigger picture. Structs produce data, classes produce objects. At first glance the difference is subtle but I will go through some of the design considerations while setting up a struct that will highlight the differences.
 
