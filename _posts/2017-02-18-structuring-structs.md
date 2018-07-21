@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Structuring Structs"
+title:  "Structuring Structs in Swift"
 date:   2017-02-18 20:46:00 -0800
 tags: swift
 ---
