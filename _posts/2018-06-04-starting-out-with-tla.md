@@ -24,7 +24,7 @@ Init == toggle = FALSE
 
 Next == Init \/ [Next]_toggle
 {% endhighlight %}
-This is a spec for toggle functionality. Here `On` is defined as the step where the toggle is true in the current state and false in the next. `Off` is defined as the step where toggle is false in the current state and true in the next. The programs starts with the toggle as false and the next step can be `On` or `Off`. In TLA+ `/\` means `AND` and `\/` means `OR`. The prime (shown with `your_var'`) declares the variable in the next state.
+This is a spec for toggle functionality. Here `On` is defined as the step where the toggle is false in the current state and true in the next. `Off` is defined as the step where toggle is true in the current state and false in the next. The programs starts with the toggle as false and the next step can be `On` or `Off`. In TLA+ `/\` means `AND` and `\/` means `OR`. The prime (shown with `your_var'`) declares the variable in the next state.
 
 ## What about *real* programs?
 While the above example is a toy spec, this small, simple language is incredibly expressive. In fact, **you can model any program or system in TLA+**. This is possible because TLA+ focuses on one core mental model -- state machines.
